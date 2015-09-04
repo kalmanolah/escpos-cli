@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.roptproject/
+dist/
+build/
+MANIFEST
+*.egg-info/
