@@ -13,7 +13,7 @@ pip2 install -U git+https://github.com/kalmanolah/escpos-cli.git
 From the command line:
 
 ```
-$ escpos-print --device-vendor-id 0x04b8 --device-product-id 0x0e15 '<receipt><h1 align="center">Test Receipt!</h1><line/></receipt>'
+$ escpos-cli --device-vendor-id 0x04b8 --device-product-id 0x0e15 '<receipt><h1 align="center">Test Receipt!</h1><line/></receipt>'
 ```
 
 ### Dependencies
