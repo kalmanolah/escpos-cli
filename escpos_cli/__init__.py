@@ -21,7 +21,7 @@ def main():
     parser.add_argument('-d', '--debug', action='store_true')
     parser.add_argument('-o', '--open-cashdrawer', action='store_true')
     parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + __VERSION__)
-    parser.add_argument('receipt_xml', required=False, type=str)
+    parser.add_argument('receipt_xml', type=str)
     args = parser.parse_args()
 
     device = Usb(args.device_vendor_id, args.device_product_id)
